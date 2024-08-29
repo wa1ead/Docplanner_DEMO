@@ -3,7 +3,7 @@
 :root {
   --primary: #4ccd99;
   --secondary: #758694;
-  --ciel: #009fbd;
+  --sky: #009fbd;
   --darken: #201e43;
   --lighty: #91ddcf;
 }
@@ -46,8 +46,8 @@ a:hover {
 
 .hero {
   text-align: center;
-  max-width: 70%;
-  margin: 3rem 15% 6rem 15%;
+  max-width: 75%;
+  margin: 4rem 12%;
 }
 
 .hero h1 {
@@ -57,12 +57,76 @@ a:hover {
   font-size: 2rem;
   margin-bottom: 2rem;
 }
+
 .hero-division {
   display: flex;
   color: var(--secondary);
   font-weight: 400;
-  line-height: 2rem;
+  line-height: 1.75rem;
   letter-spacing: 0.01rem;
-  gap: 2rem;
+  gap: 1rem;
   text-align: left;
+  margin: 0 1rem
+}
+
+.cards {
+  max-width: 75%;
+  margin: auto 12%;
+  padding: 1rem
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1.5rem;
+}
+
+.grid-item {
+  border-radius: 4%;
+  color: white;
+
+}
+
+.primary {
+  background-color: var(--primary);
+}
+
+.sky {
+  background-color: var(--sky);
+}
+
+.darken {
+  background-color: var(--darken);
+}
+
+.card {
+  padding: 2rem;
+  height: 300px
+}
+
+.card h3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 0.5rem
+}
+
+.card p {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+
+select {
+  background-color: transparent;
+  text-decoration: underline;
+  color: white;
+  font-family: sans-serif;
+  font-size: large;
+  border: none;
+  cursor: pointer;
+  margin-top: 6rem;
+}
+
+option {
+  color: black
 }
