@@ -130,3 +130,31 @@ select {
 option {
   color: black
 }
+
+.partners {
+  max-width: 75%;
+  margin: 4rem 12%;
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  padding: 1rem
+}
+
+.partners h2 {
+  color: var(--primary);
+  font-weight: 200;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 0
+}
+
+.partners-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1rem
+}
+
+.partners-item img {
+  width: 6rem;
+  height: 2.5rem;
+}
+
