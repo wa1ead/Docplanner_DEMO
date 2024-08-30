@@ -228,6 +228,87 @@ option {
 .statistics-card-content p {
   color: var(--secondary);
   font-weight: 400;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   line-height: 1rem;
+}
+
+.offices-container {
+  width: 75%;
+  margin: 5rem 12%;
+  padding: 1rem;
+}
+
+.offices-heading {
+  text-align: center;
+  max-width: 50%;
+  margin-left: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.offices-heading h1 {
+  color: var(--primary);
+  font-weight: 300;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.offices-heading p {
+  color: var(--secondary);
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.offices-cards {
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  gap: 1.5rem;
+}
+
+.offices-card-content {
+  transition: box-shadow 0.3s ease;
+}
+
+.offices-card-content:hover {
+  box-shadow: 1rem 1rem 1rem rgba(36, 36, 36, 0.1)
+}
+
+.offices-card-content img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.city-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.city-button h3 {
+  color: var(--secondary);
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.city-button button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  background-color: #7695FF;
+  color: white;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s ease
+}
+
+.city-button button:hover {
+  background-color: #03346E;
 }
