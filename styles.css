@@ -160,6 +160,8 @@ option {
 
 .statistics {
   background-color: var(--lighty);
+  height: 35rem;
+  overflow: hidden
 }
 
 .statistics-container {
@@ -171,8 +173,10 @@ option {
 }
 
 .statistics-content img {
-  width: 20rem;
-  height: 15rem
+  width: 30rem;
+  height: 25rem;
+  margin-top: 2rem;
+  margin-left: -12rem
 }
 
 .statistics-content h1 {
